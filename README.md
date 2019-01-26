@@ -29,6 +29,9 @@ Files:
   3. test.py : Flask service which is triggered by the GUI to perform the predictions
   
 # Usage:
+
+  Create folder data/rose,data/sunflower,data/daisy. Put contents of rose1 and rose2 into rose and sunflower1 and sunflower2 into sunflower. 
+  
   Training: python train.py 30
   
   30 : epochs
