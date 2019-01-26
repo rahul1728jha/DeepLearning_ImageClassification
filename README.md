@@ -30,9 +30,13 @@ Files:
   
 # Usage:
   Training: python train.py 30
+  
   30 : epochs
+  
   Test: python test.py
+  
   Flask service will start on http://127.0.0.1:5000. This is used in the jqueryScript.js to perform the prediction
+  
   Open the index.html in templates folder and trigger the service
   
 # Reference links:
