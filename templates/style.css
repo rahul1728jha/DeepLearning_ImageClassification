@@ -1,0 +1,38 @@
+ 
+footer
+{
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+header 
+{
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+.btn-space 
+{
+margin-right: 15px;
+}
+
+.borderClass{
+  border: 3px;
+  border-style: inset;
+  border-color: #FF7F50;
+  border-radius: 50px;
+}
+
+.xbootstrap {
+  color: #202020;
+  letter-spacing: .1em;
+  text-shadow: 1px 1px 1px #111, 2px 2px 1px #363636;
+}
+
+.retroshd {
+  color: #FFFFFF;
+  letter-spacing: .1em;
+  text-shadow: 2px 1px 1px #d5d5d5, 2px 2px 0px rgba(0, 0, 0, 0.2);
+}

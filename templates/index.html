@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CNN Image Classification</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="jqueryScript.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+</head>
+<body>
+
+<header class="container-fluid text-center">
+  <h1 class='retroshd'>Flower Classification</h1>
+</header>
+
+
+
+<div class="jumbotron">
+  <div class="container text-left">
+    
+    <p id="imageName">Name: </p>
+	<p id="imageSize">Size: </p>
+	<p id="imageType">Type: </p>
+	<p id="imagePrediction">Prediction: </p>
+	<p id="imageProbabilities">Probabilities: </p>
+    
+	<label class="btn btn-info btn-space btn-lg btn-file">
+		<span class="glyphicon glyphicon-file"></span> Browse  <input type="file" style="display: none;">
+	</label>
+	<button type="button" class="btn btn-info btn-space btn-lg" onclick='callService()'>
+		<span class="glyphicon glyphicon-play"></span> Predict 
+    </button>
+	
+	<button type="button" class="btn btn-info btn-space btn-lg" onclick='refresh()'>
+		<span class="glyphicon glyphicon-refresh"></span> Refresh 
+    </button>
+	
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="xbootstrap" style='font-size:30px'>Uploaded images</h3><br>
+  <div class="row" style='font-size:20px'>
+    <div class="col-sm-2">
+      <p id='predictedClass1'>Predicted:</p>
+      <img src="default.png" id="img1" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2"> 
+      <p id='predictedClass2'>Predicted:</p>
+      <img src="default.png" id="img2" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2"> 
+      <p id='predictedClass3'>Predicted:</p>
+      <img src="default.png"  id="img3"  class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2">
+      <p id='predictedClass4'>Predicted:</p>
+      <img src="default.png"  id="img4" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+	<div class="col-sm-2">
+      <p id='predictedClass5'>Predicted:</p>
+      <img src="default.png"  id="img5" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2"> 
+      <p id='predictedClass6'>Predicted:</p>
+      <img src="default.png"  id="img6" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row" style='font-size:20px'>
+    <div class="col-sm-2">
+      <p id='predictedClass7'>Predicted:</p>
+      <img src="default.png"  id="img7" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2"> 
+      <p id='predictedClass8'>Predicted:</p>
+      <img src="default.png"  id="img8" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2"> 
+      <p id='predictedClass9'>Predicted:</p>
+      <img src="default.png"  id="img9" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2">
+      <p id='predictedClass10'>Predicted:</p>
+      <img src="default.png"  id="img10" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+	<div class="col-sm-2"> 
+      <p id='predictedClass11'>Predicted:</p>
+      <img src="default.png"  id="img11" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+    <div class="col-sm-2">
+      <p id='predictedClass12'>Predicted:</p>
+      <img src="default.png"  id="img12" class="img-responsive" style="width:80%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Flower classification using CNN and Data Augmentation</p>
+</footer>
+
+</body>
+</html>
