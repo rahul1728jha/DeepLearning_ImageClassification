@@ -28,4 +28,17 @@ Files:
   2. train.py : The best model obtained is used to train and persist with this file
   3. test.py : Flask service which is triggered by the GUI to perform the predictions
   
- 
+# Usage:
+  Training: python train.py 30
+  30 : epochs
+  Test: python test.py
+  Flask service will start on http://127.0.0.1:5000. This is used in the jqueryScript.js to perform the prediction
+  Open the index.html in templates folder and trigger the service
+  
+# Reference links:
+  Bootstrap:
+    https://bootsnipp.com/snippets/76778
+    https://www.w3schools.com/bootstrap/bootstrap_templates.asp
+    
+  Flask:
+    https://www.tutorialspoint.com/flask
