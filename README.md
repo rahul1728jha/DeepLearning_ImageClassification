@@ -42,7 +42,7 @@ Files:
   
   Open the index.html in templates folder and trigger the service
   
-  Refer Image Classification Usage.pdf for complete usage guide with screen schots
+# Refer Image Classification Usage.pdf for complete usage guide with screen schots
   
   
 # Reference links:
